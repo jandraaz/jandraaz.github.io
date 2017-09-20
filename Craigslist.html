@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Jandra A</title>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="pinterest" content="nopin" />
+            
+        <link rel="shortcut icon" href="../favicon.ico">
+        <link rel="stylesheet" type="text/css" href="css/style.css" />
+        <link rel="stylesheet" type="text/css" href="css/component3.css" />
+        <script src="js/modernizr.custom.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script>
+            $(function(){
+              
+              $('#tasks li h4').each(function(){
+                                     $(this).click(function(){
+                                                   $(this).siblings('div').slideToggle(400);
+                                                   });
+                                     });
+              
+              });
+            </script>
+        <script>
+            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+             (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+             m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+             })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+             
+             ga('create', 'UA-65846681-2', 'auto');
+             ga('send', 'pageview');
+             
+            </script>
+    </head>
+        
+    
+    
+    <body>
+        <a href="https://jandraaz.github.io/"><name>JANDRA ARANGUREN</name></a>
+        <hr>
+        <img src="images/UX/craigslist/CraigslistHeader.png" alt="img03" width="100%" padding-bottom="30%"/>
+        
+        <h2> Craigslist Redesign | Fall 2015: </h2>
+        
+        <h3>
+            The goal was to maintain Craigslist's branding and intentions, while improving the usability of the website and and the user's experience in the process. Specifically to:
+            <lu> <li> Declutter interface to be able to use Craigslist easily </li>
+                <li>Quickly sift through, find and compare items (improve search)</li>
+                <li>Address credibility and security issues facing users</li>
+            </lu>
+            <br>
+            The prototype can be found <a href="https://marvelapp.com/2dbei94#11357590"><links>here.</links></a><br>
+        </h3>
+        
+        <ul id="tasks">
+            <li><h4>01. So, what exactly is the problem?</h4>
+                <div class="info">
+                    <div class="columns">
+                        <b>DEVELOPING PERSONAS:</b>
+                        <br>
+                        <div class = "col50">
+                            <figure>
+                                <img src="images/UX/craigslist/julie.png" width="100%">
+                                    <figcaption><captions>Understanding Julie, the apartment hunger</captions></figcaption>
+                                    </figure>
+                        </div>
+                        <div class = "col50">
+                            <figure>
+                                <img src="images/UX/craigslist/josh.png" width="100%">
+                                    <figcaption><captions>Understanding Josh, the product buyer</captions></figcaption>
+                                    </figure>
+                        </div>
+                        <div class = "col40">
+                        <b>TASKS:</b> <br>
+                        
+                            1. Assessing the market:<br>
+                            Find min, max, and ~avg. price of apartments in South Bend, then return to home.<br><br>
+                            2. Finding contact details:<br>
+                            Search for an apartment filtering by 2 Bedrooms, and find 3 phone numbers to contact and write them down. Return to home.<br><br>
+                            3. Search in different city, save posts:<br>
+                            Change your city to Austin, TX. Look for bikes filtering by condition. Save a post for later. Access it.
+                            <br><br><br>
+                            <b>FINDINGS: </b><br>
+                            1. Users felt overwhelmed interacting on Craigslist as they feel it is chaotic, and associated with dangerous encounters. <br>
+                            2. Lack of credibility keeps users from coming to Craigslist. <br>
+                            3. Photos are the primary way users select a post to click on.
+                            
+                        </div>
+                    
+                        <div class = "col60">
+                            <figure>
+                                <img src="images/UX/craigslist/cristy.png" width="100%">
+                                    <figcaption><captions>Conducting task-specific interviews with our target users</captions></figcaption>
+                                    </figure>
+                        </div>
+                    
+                    </div>
+                    <div class="clear"></div>
+                </div>
+
+
+            </li>
+            
+            <li><h4>02. Finding a solution.</h4>
+                <div class="info">
+                    <div class="columns">
+                        - Initial wireframes for different design directions<br><br>
+                        <div class = "col50">
+                            <img src="images/UX/craigslist/layout1.PNG" width="100%">
+                                <captions>Different design directions for the home screen</captions>
+                                </div>
+                        <div class = "col50">
+                                <img src="images/UX/craigslist/layout3.png" width="100%">
+                                <captions>Chosen design direction - Results screen </captions>
+                        </div>
+                        
+                        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<!--                        <div class = "col50">-->
+<!--                                <img src="images/UX/craigslist/layout2.png" width="100%">-->
+<!--                        </div>-->
+                        <div class = "col50">
+                                <img src="images/UX/craigslist/layout4.png" width="100%">
+                                <captions>Chosen design direction - Individual posting screen</captions>
+                        </div>
+                        <br><br><br><br>
+
+                      </div>
+                    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+                        and understanding the flow.
+                        <br><br>
+                        <img src="images/UX/craigslist/application_flow.png" width="100%">
+                        
+                    <div class="clear"></div>
+                </div>
+            </li>
+            
+            
+            <li><h4>03. Putting it all together for research and gathering feedback.</h4>
+                <div class="info">
+                    <div class="columns">
+                                <img src="images/UX/craigslist/application_flow_screens.png" alt="flow" width="100%">
+                                    <figcaption><captions>Version 2</captions></figcaption>
+                        
+                        
+                        <iframe src="https://marvelapp.com/cc5224?emb=1" width="100%" height="800px" allowTransparency="true" frameborder="0"></iframe>
+                    
+
+                        <br><br><br>
+                        
+                        <div class="clear"></div>
+                    </div
+            </li>
+            <li><h4>04. And is it better?</h4>
+                <div class="info">
+                    <div class="columns">
+                            <hr>
+                            "The newer version was much <b>more intuitive</b>. The old version felt <b>unnecessarily complicated</b> and it was difficult to find what I was looking for quickly"<br><br>
+                            
+                            "The redesign was <b>awesome</b>, it even looks good. I'd much rather go to that one."<br><br>
+                            
+                            "I believe [the redesign] is <b>more welcoming and consistent</b>"<br><br>
+                            
+                            "The original has <b>too many options</b> for something so simple"<br>
+                            
+                            <hr>
+                    
+                        
+                        <div class = "col50">
+                                <img src="images/UX/craigslist/SystemUsabilityScore.jpg" width="100%">
+                                    <figcaption><captions>Comparison between original and redesign</captions></figcaption>
+                        </div>
+                        
+                        
+                        <div class = "col50">
+                                <img src="images/UX/craigslist/PerceivedDifficultyofTask.jpg" width="100%">
+                                    <figcaption><captions>Comparison between original and redesign</captions></figcaption>
+                        </div>
+                        
+                        <div class = "col50">
+                                <img src="images/UX/craigslist/PerceivedDuration.jpg" width="100%">
+                                    <figcaption><captions>Comparison between original and redesign</captions></figcaption>
+                                    <br><br>
+                        </div>
+                        
+                        <div class = "col50">
+                                <img src="images/UX/craigslist/TaskCompletionTime.jpg" width="100%">
+                                    <figcaption><captions>Comparison between original and redesign</captions></figcaption>
+                            <br><br>
+                        </div>
+                        
+                        <div class="clear"></div>
+                        
+                        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+                    </div>
+                    
+                    </li>
+            
+            
+        </ul>
+        
+        <br><br><br><br><br>
+        <h3> Skills and Lessons learned: </h3>
+        <lu>
+            <h3>
+                <li>Conducting usability studies</li>
+                <li>Developing personas, use cases, and scenarioes</li>
+                <li>Conducting interviews, observations and surveys</li>
+                <li>Performing Heuristic Evaluations using Nielsen's Guidelines</li>
+                <li>Using Affinity Diagrams</li>
+                
+
+
+
+            </h3>
+        </lu>
+        
+        <br>
+        
+        
+        
+    </body>
+    
+    <br><br><br><br>
+    
+    
+    <nav class="types">
+        <a href="https://jandraaz.github.io/All.html"><btext>Work</btext></a>
+
+    </nav>
+    
+    <div align="center">
+        <author align="middle">Created by Jandra Aranguren.</author>
+        <br>
+        <a href="https://jandraaz.github.io/resume1.pdf" target="_blank"><author align="middle">RESUME</author></a>
+    </div>
+    
+    
+</html>

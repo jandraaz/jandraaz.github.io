@@ -1,0 +1,356 @@
+@import url('https://fonts.googleapis.com/css?family=Amiko:400,700|Palanquin:300,400|Lato:700|Open+Sans+Condensed:300,400,500');
+
+body{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #FFFFFF;
+    margin: 5%;
+/*    padding: 1%;*/
+
+}
+
+header {
+    background:
+        url(../images/DSC_5855_2.png);
+        background-size: 100%;
+        height:80vh;
+        margin-top: -5%;
+        margin-bottom: -5%;
+}
+
+name {
+    color:black;
+    font-family: Open Sans Condensed;
+    font-size: 20px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 500;
+
+}
+
+desc {
+    color:black;
+    font-family: Lato;
+    font-size: 13px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 100;
+    line-height: 26.4px;
+}
+
+p {
+    color:black;
+    font-family: Palanquin;
+    font-size: 1vw;
+    font-weight: 300;
+    padding-right: 65.5%;
+    padding-left: 5%;
+    padding-top: 13%;
+    padding-bottom: 20%;
+    line-height: 18px;
+}
+
+#intro {
+/*    padding: 9%;*/
+/*    background-color: #242424;*/
+    margin: 5px;
+}
+
+#product {
+    height: 4px;
+    width: 180px;
+    background-color: red;
+    margin: 5px;
+}
+
+#ui {
+    height: 4px;
+    width: 180px;
+    background-color: blue;
+    margin: 5px;
+}
+
+#graphic {
+    height: 4px;
+    width: 180px;
+    background-color: green;
+    margin: 5px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.main{
+    width: 100%;
+}
+
+h1{
+    font-family: Lato;
+    font-weight: 700;
+    font-size: 70;
+    font-size: 3vw;
+}
+
+h2{
+    font-family: Amiko;
+/*    text-transform: uppercase;*/
+    font-weight: 400;
+    font-size: 15pt;
+    padding: 3% 20% 1.5% 0%;
+    letter-spacing: .4px;
+/*    font-size: 3vw;*/
+}
+
+h3{
+    font-family: Palanquin;
+    letter-spacing: .4px;
+    font-weight: 300;
+    font-size: 10pt;
+    text-align: left;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    line-height: 23px;
+}
+
+
+links{
+    font-family: Palanquin;
+    letter-spacing: .4px;
+    font-weight: 300;
+    font-size: 10pt;
+    text-align: left;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    line-height: 23px;
+    text-decoration: underline;
+}
+
+h4{
+    font-family: Amiko;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 11pt;
+    color: black;
+    text-align: left;
+    letter-spacing: .4px;
+    line-height: 20px;
+}
+
+h4:hover{
+/*    background: #CCCCCC;*/
+    color: #A9A9A9;
+    text-align: left;
+}
+
+h5{
+    font-family: Amiko;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 11pt;
+    color: #A9A9A9;
+    text-align: middle;
+    letter-spacing: .4px;
+    line-height: 20px;
+}
+
+h5:hover{
+    /*    background: #CCCCCC;*/
+    color: black;
+    text-align: middle;
+}
+
+.info{
+/*    display: none;*/
+    font-family: Palanquin;
+    font-weight: 300;
+    letter-spacing: .4px;
+    font-size: 10pt;
+    text-align: left;
+    padding-top: 2px;
+    padding-left: 35px;
+    line-height: 23px;
+}
+
+.more{
+    display: none;
+/*    font-family: Palanquin;*/
+/*    font-weight: 300;*/
+/*    letter-spacing: .4px;*/
+/*    font-size: 10pt;*/
+/*    text-align: left;*/
+/*    padding-top: 2px;*/
+/*    padding-left: 35px;*/
+/*    line-height: 23px;*/
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-align: right;
+
+}
+
+
+#test li {
+    float: left;
+}
+
+#tasks {
+    text-align: right;
+    height: 800 px;
+}
+
+#project {
+    text-align: center;
+    height: 800 px;
+}
+
+btext{
+    font-family: Open Sans;
+    font-size: 15px;
+    font-size: 1vw;
+    font-weight:400;
+    line-height: 40px;
+    line-height: 2.5vw;
+}
+
+
+/* Effect 5: same word slide in and border bottom */
+nav a {
+    position: relative;
+    display: inline-block;
+    color: black;
+    text-transform: uppercase;
+    letter-spacing: .4px;
+}
+
+nav a:hover {
+    color: black;
+}
+
+.types a {
+    margin: 0 10px;
+    padding: 2px 7px;
+}
+
+/*horizontal line*/
+.types a::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    color: red;
+    background: black;
+    content: '';
+    transition: top 0.5s;
+}
+
+/*vertical line*/
+.types a::after {
+    position: absolute;
+    top: 0;
+    left: 0;
+/*    Change to 1 if want to show vertical line*/
+    width: 0px;
+    height: 0px;
+    color: red;
+    background: black;
+    content: '';
+    transition: height 0.5s;
+}
+
+/*horizontal line*/
+.types a:hover::before {
+    top: 100%;
+    opacity: 1;
+}
+
+/*vertical line*/
+.types a:hover::after {
+    opacity: .5;
+    height: 100%;
+    width: 100%;
+}
+
+div.columns       { width: 100%; }
+div.columns div   {
+    height: 100%;
+    float: left;
+}
+div.col2          {
+/*    background-color: #cccccc;*/
+    width: 29%;
+    
+}
+div.col1           {
+    padding: 1%;
+    width: 30%;
+}
+div.col30           {
+    /*    background-color: #e14e32;*/
+    padding: 2%;
+    width: 26%;
+}
+
+div.col70    {
+    width: 66%;
+    padding: 2%;
+}
+
+div.col60    {
+    width: 56%;
+    padding: 2%;
+}
+
+div.col40    {
+    width: 36%;
+    padding: 2%;
+}
+
+div.col50    {
+    width: 44%;
+    padding:2%;
+/*    align: left;*/
+}
+
+div.clear         { clear: both; }
+
+div.final{
+    opacity: 0.25;
+}
+
+div.final:hover{
+    opacity: 0.8;
+}
+
+
+texta{
+    color:white;
+}
+
+
+
+captions{
+    font-family: Palanquin;
+    font-weight: 500;
+    font-size: 6pt;
+    text-align: left;
+    text-transform: uppercase;
+    letter-spacing: .6px;
+}
+
+author{
+    font-family: Palanquin;
+    font-weight: 500;
+    font-size: 6pt;
+    text-align: left;
+    text-transform: uppercase;
+    letter-spacing: .6px;
+    color: gray;
+    text-align: center;
+}

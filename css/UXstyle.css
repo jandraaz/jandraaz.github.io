@@ -1,0 +1,24 @@
+.og-grid {
+    list-style: none;
+    padding: 2px 0;
+    margin: 0 auto;
+    text-align: left;
+    width: 100%;
+}
+
+.og-grid li {
+    display: inline-block;
+    margin: 0% 4% 1% 0%;
+    vertical-align: top;
+    height: auto;
+    width: 20%;
+}
+
+.og-grid li:hover {
+    display: inline-block;
+    margin: 0% 4% 1% 0%;
+    vertical-align: top;
+    height: auto;
+    width: 20%;
+    opacity: 0.5;
+}
